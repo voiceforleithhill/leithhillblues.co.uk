@@ -38,6 +38,9 @@ h3.promo a {
   font-style: italic;
   font-weight: bold;
 }
+strong {
+  color: #993355;
+}
 a {
   color: #404040;
 }
