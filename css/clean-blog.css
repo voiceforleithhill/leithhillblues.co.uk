@@ -81,6 +81,16 @@ hr.spacer {
 em.approved {
   color: #f00;
 }
+li.cta {
+  color: #993355;
+  font-size: 20px;
+}
+li.cta p {
+  color: black;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
 .navbar-custom {
   background: #993355;
   min-height: 20px;
