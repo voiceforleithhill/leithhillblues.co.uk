@@ -1,10 +1,4 @@
-<div id="avplayer1" class="avplayer"></div>
-<hr class="short">
-<div id="avplayer2" class="avplayer"></div>
-<hr class="short">
-<div id="avplayer3" class="avplayer"></div>
-<hr class="short">
-<div id="avplayer4" class="avplayer"></div>
+<div id="avplayer" class="avplayer"></div>
 
 <script>
   // Load the IFrame Player API code asynchronously.
@@ -17,25 +11,12 @@
   // YouTube player after the API code downloads.
   var player;
   function onYouTubePlayerAPIReady() {
-    player = new YT.Player('avplayer1', {
+    player = new YT.Player('avplayer', {
       height: '315',
       width: '560',
       videoId: 'tGLJidCBlvk'
     });
-    player = new YT.Player('avplayer2', {
-      height: '315',
-      width: '560',
-      videoId: 'lXvP-YZ3WNc'
-    });
-    player = new YT.Player('avplayer3', {
-      height: '315',
-      width: '560',
-      videoId: 'rKEgpOScfV4'
-    });
-    player = new YT.Player('avplayer4', {
-      height: '315',
-      width: '560',
-      videoId: 'j7m4eS60Dnk'
-    });
   }
 </script>
+
+<!-- https://www.youtube.com/embed/OR2UcBBU33Y -->
